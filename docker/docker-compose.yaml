@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+
+    ubuntu:
+        container_name: ubuntu_20_04
+        build: ./ubuntu
+        #volumes:
+         # - ./code:/cpp/code/
+         
+        #restart: always
+        tty: true
+
+        
+  
+           

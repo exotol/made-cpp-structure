@@ -1,0 +1,1 @@
+qemu-arm -L $LINARO_SYSROOT ./a.out
